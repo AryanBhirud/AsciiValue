@@ -1,0 +1,29 @@
+body{
+    background-color: #134b5f;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.ascii{
+    color: #ffffffd5;
+    font-size: 300px;
+    text-align: center;
+    line-height: 90px;
+    position: relative;
+}
+.key{
+    color: #ffffffd5;
+    font-size: 35px;
+    position: absolute;
+    top: 70%;
+    left: 42%;
+
+}
+footer{
+    text-align: right;
+    color: #ffffffd5;
+}
