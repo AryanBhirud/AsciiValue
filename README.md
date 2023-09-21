@@ -1,1 +1,3 @@
 # AsciiValue
+Learning programming as a student requires the use of ascii values in the programs i write for my university assignments. However i never remember the ascii values and allways have to look them up on the internet and the process of doing that was very irritating to me. To solve this i made a simple website using a few simple lines of code. This website shows you the ascii value of whichever key you press. It is a much faster and efficient solution which doesnt require a lot of code.
+![image](https://github.com/AryanBhirud/AsciiValue/assets/112156883/2cd070c5-3cfa-4e8b-89e0-a5a92210f41c)
