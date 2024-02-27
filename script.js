@@ -95,6 +95,8 @@ const asciiChart = {
     '}': 125,
     '~': 126,
 };
+
+
 const key = document.getElementById('key_pressed');
 const ascii_value = document.getElementById('value');
 document.addEventListener('keydown', function(event) {
@@ -105,9 +107,11 @@ document.addEventListener('keydown', function(event) {
         }
         ascii_value.innerText = asciiChart[event.key];
         key.innerText = 'Key Pressed : '+ keyPressed;
-        console.log('Key pressed:', keyPressed);
     }
     
 })
-console.log(asciiChart);
+document.addEventListener("DOMContentLoaded", function () {
+    document.dispatchEvent(new KeyboardEvent('keydown', { key: 'A' }));
+});
+
   
