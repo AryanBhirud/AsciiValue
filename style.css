@@ -1,25 +1,25 @@
 body{
-    background-color: #134b5f;
+    background-color: #494949;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 75vh;
 
 }
 .ascii{
-    color: #ffffffd5;
+    color: #ffffff;
     font-size: 300px;
     text-align: center;
     line-height: 90px;
     position: relative;
 }
 .key{
-    color: #ffffffd5;
+    color: #a8a8a8;
     font-size: 35px;
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 42%;
 
 }
